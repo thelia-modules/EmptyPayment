@@ -1,4 +1,4 @@
-# Free Order
+# Empty payment
 
 This module is used to terminate the order process without payment.
 
