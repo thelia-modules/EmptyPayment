@@ -16,10 +16,9 @@ use Thelia\Core\Event\Order\OrderEvent;
 use Thelia\Core\Event\TheliaEvents;
 use Thelia\Model\Order;
 use Thelia\Model\OrderStatusQuery;
-use Thelia\Module\BaseModule;
-use Thelia\Module\PaymentModuleInterface;
+use Thelia\Module\AbstractPaymentModule;
 
-class EmptyPayment extends BaseModule implements PaymentModuleInterface
+class EmptyPayment extends AbstractPaymentModule
 {
     public function isValidPayment()
     {
